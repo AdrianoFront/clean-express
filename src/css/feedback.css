@@ -4,3 +4,8 @@ body {
   font-size: 25px;
   color: rgb(32, 32, 32);
 }
+
+h1 {
+  padding-top: 50px;
+  padding-left: 50px;
+}

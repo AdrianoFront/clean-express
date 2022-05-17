@@ -5,10 +5,8 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="src/css/style.css">
   <title>Clean Express</title>
-  <link rel="stylesheet" href="src/css/navbar.css">
-  <link rel="stylesheet" href="src/css/reset.css">
-
 </head>
 
 <body>
@@ -84,7 +82,33 @@
 
   </header>
 
+  <!-- atendimento -->
+  <form action="feedback.html" method="GET">
+    <label for="nome">Nome:</label>
+    <input id="nome" name="nome" type="text" placeholder="Digite o seu nome"><br>
+    <label for="e-mail">E-mail:</label>
+    <input id="e-mail" name="email" type="email" placeholder="Digite o seu e-mail"><br>
+    <label for="senha">Senha:</label>
+    <input id="senha" name="senha" type="password" placeholder="Digite a sua senha"><br>
+    <button>Enviar</button><br>
 
+
+    <br>
+    <label>Tipo de cliente</label><br>
+
+    <input name="pessoa" type="radio">
+    <label>Pessoa física</label><br>
+    <input name="pessoa" type="radio">
+    <label>Pessoa Jurídica:</label><br>
+    <br><br>
+
+
+    <label>Forma de pagamento</label><br>
+    <input name="pagamento" type="checkbox" value="cartao" id="cartao"><label for="cartao">Cartão</label><br>
+    <input name="pagamento" type="checkbox" value="pix" id="pix"><label for="pix">Pix</label><br>
+    <input name="pagamento" type="checkbox" value="boleto" id="boleto"><label for="boleto">Boleto</label><br>
+    <button>Enviar</button><br>
+  </form>
 
 </body>
 

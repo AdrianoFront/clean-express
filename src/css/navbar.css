@@ -3,7 +3,7 @@ ul {
 }
 
 body {
-  background-color: rgb(191, 191, 191);
+  background-color: var(--cor-bg-primary);
   font-family: "Arial", sans-serif;
 }
 
@@ -13,19 +13,19 @@ body {
   align-items: center;
   width: 100%;
   height: 50px;
-  background-color: black;
-  box-shadow: 0 0 10px black;
+  background-color: var(--cor-bg-secondary);
+  box-shadow: 0 0 10px var(--box-shadow);
   padding: 0 20px;
 }
 
 .logo {
-  color: white;
+  color: var(--logo-secondary);
   letter-spacing: -3px;
   text-transform: lowercase;
 }
 
 .logo span:first-child {
-  color: #1d52ff;
+  color: var(--logo-primary);
 }
 
 .logo span:last-child {
